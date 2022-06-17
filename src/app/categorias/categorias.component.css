@@ -1,0 +1,26 @@
+img{
+    width:200px;
+    height: 200px;
+}
+.cat{
+    position:relative;
+    display:block;
+    padding: 0;
+    text-align: center;
+}
+.tit{
+    text-align: center;
+}
+
+.content{
+    display: flex !important;
+    position: relative;
+ 
+   padding-left:20%; 
+   padding-right:20%; 
+}
+a{
+  color:black;
+  font-weight: bold;
+  text-decoration: none;
+}
