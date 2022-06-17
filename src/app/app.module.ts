@@ -8,11 +8,8 @@ import { ContactoComponent } from './contacto/contacto.component';
 import { PreguntasComponent } from './preguntas/preguntas.component';
 import { MenuComponent } from './menu/menu.component';
 import { CategoriasComponent } from './categorias/categorias.component';
-import { ElectronicaComponent } from './electronica/electronica.component';
-import { MascotasComponent } from './mascotas/mascotas.component';
-import { JugueteriaComponent } from './jugueteria/jugueteria.component';
-import { HogarComponent } from './hogar/hogar.component';
-import { FarmaciaComponent } from './farmacia/farmacia.component';
+import { ElectronicaComponent } from './categorias/electronica/electronica.component';
+import { MascotasComponent } from './categorias/mascotas/mascotas.component';
 
 @NgModule({
   declarations: [
@@ -23,10 +20,7 @@ import { FarmaciaComponent } from './farmacia/farmacia.component';
     MenuComponent,
     CategoriasComponent,
     ElectronicaComponent,
-    MascotasComponent,
-    JugueteriaComponent,
-    HogarComponent,
-    FarmaciaComponent
+    MascotasComponent
   ],
   imports: [
     BrowserModule,

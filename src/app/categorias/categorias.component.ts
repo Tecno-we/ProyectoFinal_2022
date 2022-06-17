@@ -14,7 +14,7 @@ export class CategoriasComponent implements OnInit {
   }
 
   getCat():any{
-    return ["lectronica","mascotas","Jugueteria","Hogar","Farmacia"]
+    return ["Electronica","Mascotas","Jugueteria","Hogar","Farmacia"]
   }
 
 }

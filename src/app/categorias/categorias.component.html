@@ -1,7 +1,6 @@
-<div class="tit"><h1>Categorias</h1></div>
-<div class="content" >
-    <div class="card" routerLinkActive="active"   *ngFor="let c of getCat(); let pos = index" >
-       <a class="cat" [routerLink]="['c']"><p><img src="../../assets/img/categorias/{{c}}.jpeg" alt=""></p> <p><b>{{c}}</b></p></a>
 
+<div class="content" >
+    <div class="cardC" routerLinkActive="active"   *ngFor="let c of getCat(); let pos = index" >
+       <a class="cat" [routerLink]="[c]" title="{{c}}"><p><img src="../../assets/img/categorias/{{c}}.jpeg" alt=""></p> </a>
     </div>
 </div>

@@ -1,0 +1,12 @@
+<div class="titProd">Mascotas</div>
+<div class="palScroll">
+<div class="contentProd" >
+    <div class="cardCat" *ngFor="let p of getProd();let pos=index">
+        <div class="prod" (click)="verProd(p)"><p><img src="../../../assets/img/categorias/mascotas/{{p}}.jpg"></p>
+            <hr>
+            <p class="nomProd">{{p}}</p>     
+            <p>$1,500</p>
+        </div>
+    </div>
+</div>
+</div>

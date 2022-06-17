@@ -6,6 +6,7 @@ import { PreguntasComponent } from './preguntas/preguntas.component';
 import { MenuComponent } from './menu/menu.component';
 import { CategoriasComponent } from './categorias/categorias.component';
 import { ElectronicaComponent } from './categorias/electronica/electronica.component';
+import { MascotasComponent } from './categorias/mascotas/mascotas.component';
 
 const routes: Routes = [
   {path:"home", component:HomeComponent},
@@ -13,7 +14,10 @@ const routes: Routes = [
   {path:"preguntas", component:PreguntasComponent},
   {path:"menu", component:MenuComponent},
   {path:"categorias", component:CategoriasComponent},
-  {path:"electronica", component:ElectronicaComponent}
+  {path:"Electronica", component:ElectronicaComponent},
+  {path:"Mascotas", component:MascotasComponent},
+  {path: '**', pathMatch: 'full', redirectTo: 'home'}
+  
 ];
 
 @NgModule({
